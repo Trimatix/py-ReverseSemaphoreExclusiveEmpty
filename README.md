@@ -18,6 +18,7 @@ If a task is waiting for the count to reach zero, then new non-empty waiting tas
 
 <details>
 <summary><h2>Usage</h2></summary>
+
 `async with` is by far the recommended use method (illustrated below), but you can also wrap your code with
 ```py
 await sem.aquire()
